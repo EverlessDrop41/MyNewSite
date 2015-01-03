@@ -1,0 +1,50 @@
+
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#TitleBox {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    padding: 5px;
+}
+
+#TitleBox small {
+    font-family: 'Wire One', sans-serif;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.2em;
+    color: #606060;
+}
+
+#ProfilePic {
+    float: left;
+    width:15%
+}
+
+.right-p-img {
+    float: right;
+    width: 84%;
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+    #ProfilePic {
+        width: 25%;
+    }
+    .right-p-img {
+        width: 74%;
+    }
+}
+
+@media (max-width: 500px) {
+    #ProfilePic {
+        width: 100%;
+    }
+    .right-p-img {
+        width: 100%;
+    }
+}
